@@ -2,7 +2,7 @@
   "Bindings": [
     {
       "Host": "8088",
-      "Container": "5000"
+      "Container": "80"
     }
   ]
 }
