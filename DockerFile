@@ -1,0 +1,18 @@
+# Use the official Nginx image from the Docker Hub
+FROM nginx:alpine
+
+# Replace the default Nginx HTML file with our own
+RUN echo '<!DOCTYPE html>' > /usr/share/nginx/html/index.html && \
+    echo '<html lang="en">' >> /usr/share/nginx/html/index.html && \
+    echo '<head>' >> /usr/share/nginx/html/index.html && \
+    echo '    <meta charset="UTF-8">' >> /usr/share/nginx/html/index.html && \
+    echo '    <meta name="viewport" content="width=device-width, initial-scale=1.0">' >> /usr/share/nginx/html/index.html && \
+    echo '    <title>Hello World</title>' >> /usr/share/nginx/html/index.html && \
+    echo '</head>' >> /usr/share/nginx/html/index.html && \
+    echo '<body>' >> /usr/share/nginx/html/index.html && \
+    echo '    <h1>Hello, World!</h1>' >> /usr/share/nginx/html/index.html && \
+    echo '</body>' >> /usr/share/nginx/html/index.html && \
+    echo '</html>' >> /usr/share/nginx/html/index.html
+
+# Expose port 80 to access the web server
+EXPOSE 80
