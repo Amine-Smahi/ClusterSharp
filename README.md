@@ -7,6 +7,6 @@ dx
 dsd
 xd
 dd
-ss
+ssc
 dd
 d
