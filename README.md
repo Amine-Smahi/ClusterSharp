@@ -9,5 +9,5 @@ xdd
 ddd
 sscd
 ddxx
-d
+dss
 d
