@@ -14,5 +14,5 @@ RUN echo '<!DOCTYPE html>' > /usr/share/nginx/html/index.html && \
     echo '</body>' >> /usr/share/nginx/html/index.html && \
     echo '</html>' >> /usr/share/nginx/html/index.html
 
-# Expose port 80 to access the web server
-EXPOSE 80
+# Expose port 5000 to access the web server
+EXPOSE 5000
