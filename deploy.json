@@ -1,5 +1,5 @@
 {
-  "binding": [
+  "bindings": [
     "host": "8088",
     "container": "5000"
   ]
