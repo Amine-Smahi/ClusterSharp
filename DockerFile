@@ -4,5 +4,5 @@ FROM nginx:alpine
 # Create a simple HTML file
 RUN echo 'Hi' > /usr/share/nginx/html/index.html
 
-# Expose port 5000 to access the web server
-EXPOSE 5000
+# Expose port 80 to access the web server
+EXPOSE 80
