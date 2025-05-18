@@ -1,0 +1,5 @@
+[
+  "rm -rf <repository>",
+  "git clone https://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@github.com/Amine-Smahi/<repository>.git",
+  "cd cluster/ && sudo docker compose up -d"
+]
